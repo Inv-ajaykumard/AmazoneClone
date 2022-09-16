@@ -1,0 +1,168 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.footercontainer {
+    background-color: black;
+    padding: 5px;
+    width: 1980px;
+    height: 80px;
+
+
+}
+.container{
+    padding: 0%;
+    margin: 0%;
+}
+
+.btn-group {
+    width: fit-content;
+}
+
+.Searchspan {
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    height: 40px;
+
+
+}
+
+.btn-search {
+    width: 40vw;
+    height: 40px;
+
+}
+
+.Allbtn {
+    height: 40px;
+}
+
+.btnfa {
+    height: 40px;
+}
+
+.dropdown-menu {
+    background-color: black;
+
+}
+
+.iFont {
+
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.iFont3 {
+
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+.iFont4 {
+
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    align-items: center;
+    font-size: 16px;
+}
+
+.iFont2:hover {
+    background-color: rgb(43, 42, 42);
+    color: black;
+}
+
+.img-box {
+    height: 60px;
+    width: 185px;
+    padding: auto;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 3px;
+    margin: 0%;
+}
+.img-box2 {
+    height: 60px;
+    width: 120px;
+    padding: auto;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 3px;
+    margin: 0%;
+}
+.img-box2:hover {
+    border: solid 2px rgb(255, 255, 255);
+}
+.img-box3 {
+    height: 60px;
+    width: 120px;
+    padding: auto;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 3px;
+    margin: 0%;
+}
+
+.nav-img {
+    width: 9vw;
+    height: 2vw;
+    object-fit: cover;
+    position: relative;
+
+}
+
+.img-box:hover {
+    border: solid 2px rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width :850px) {
+
+    .btn-search {
+        width: 25vw;
+        height: 40px;
+
+    }
+
+    .img-box {
+        height: 30px;
+        width: 90px;
+        padding: auto;
+        border: solid 1px rgb(0, 0, 0);
+        border-radius: 2px;
+        margin: 0%;
+    }
+
+    .nav-img {
+        width: 9vw;
+        height: 2vw;
+        object-fit: cover;
+        position: relative;
+
+    }
+
+    .iFont3 {
+
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        align-items: center;
+        font-size: 12px;
+    }
+    footercontainer{
+        padding: 0%;
+        margin: 0%;
+        width: 850px;
+      
+    }
+
+
+}
